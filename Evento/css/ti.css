@@ -31,19 +31,24 @@
 
 
 
-.conatiner_unilt_item{
+.conatiner_unilt_item_ti{
     display: flex;
     flex-direction: column;
     position: relative;
+    background-color: rgb(206, 109, 255);
 }
 
-.conatiner_text_item{
+.conatiner_text_item_ti{
     display: flex;
     padding: 3em;
     color: white;
     font-size: 20px;
     z-index: 5;
     font-weight: 500;
+    width: 80%;
+    background-color: rgba(189, 144, 238, 0.822);
+    border-radius: 20px 5px 5px 100px;
+    text-align: justify;
 }
 
 .conatiner_body_unil{

@@ -40,8 +40,12 @@
     position: relative;
     justify-content: end;
     align-items: end;
+    
 
 }
+
+
+
 
 .conatiner_text_item_es{
     display: flex;
@@ -51,8 +55,9 @@
     z-index: 5;
     font-weight: 500;
     width: 80%;
-    background-color: rgba(235, 179, 233, 0.822);
+    background-color: rgba(155, 66, 152, 0.822);
     border-radius: 20px 5px 5px 100px;
+    text-align: justify;
 }
 
 .conatiner_body_unil{
@@ -176,6 +181,9 @@
     display: flex;
     position: absolute;
     height: 900px;
-    opacity: 10%;
+    opacity: 5%;
     top: 300px;
+    rotate: 45deg;
+
+
 }

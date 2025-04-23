@@ -36,10 +36,11 @@
 
 
 
-.conatiner_unilt_item{
+.conatiner_unilt_item_sa{
     display: flex;
     flex-direction: column;
     position: relative;
+    background-color: rgb(208, 245, 193);
 }
 
 
@@ -50,6 +51,10 @@
     font-size: 20px;
     z-index: 5;
     font-weight: 500;
+    width: 80%;
+    background-color: rgba(196, 254, 176, 0.822);
+    border-radius: 20px 5px 5px 100px;
+    text-align: justify;
 }
 
 .conatiner_body_unil{
