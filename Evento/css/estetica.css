@@ -1,0 +1,181 @@
+.estetica_cor{
+    background: linear-gradient(180deg, rgb(214, 27, 193) 0%, rgb(232, 116, 222) 66%, rgb(223, 26, 180) 100%);
+    z-index: 10;
+
+}
+
+.title_unil{
+    display: flex;
+    width: 100%;
+    margin-top: 10rem;
+    flex-direction: column;
+    padding: 3rem;
+    position: relative;
+
+}
+
+.title_unil1{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+
+
+
+.title_unil3{
+    font-size: 50px;
+    color: rgb(255, 200, 247);
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+
+
+.conatiner_unilt_item{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: end;
+    align-items: end;
+
+}
+
+.conatiner_text_item_es{
+    display: flex;
+    padding: 3rem;
+    color: #5c094e;
+    font-size: 25px;
+    z-index: 5;
+    font-weight: 500;
+    width: 80%;
+    background-color: rgba(235, 179, 233, 0.822);
+    border-radius: 20px 5px 5px 100px;
+}
+
+.conatiner_body_unil{
+    display: flex;
+
+    width: 100%;
+}
+
+.conatiner_unilt_item_left_es{
+    display: flex;
+    width: 50%;
+    padding: 3rem;
+    font-size: 25px;
+    color: #7a0666;
+    z-index: 8;
+}
+.conatiner_unilt_item_right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conatiner_unilt_item_right img{
+    display: flex;
+    width: 500px;
+    height: 600px;
+    border-radius: 5px 100px 5px 5px;
+    object-fit: cover;
+    z-index: 8;
+}
+
+
+.user_item{
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+
+}
+
+
+.container_item_img{
+    display: flex;
+    position: relative;
+  
+}
+
+
+.container_item_img .img_ref{
+    display: flex;
+    width: 500px;
+    height: 600px;
+    border-radius: 5px ;
+    background-color: rgba(255, 124, 198, 0.561);
+
+    object-fit: contain;
+    z-index: 8;
+
+ 
+    
+}
+
+.img_shape, .img_shape2{
+    position: absolute;
+    z-index: 5;
+    border-radius: 15px;
+    height: 250px;
+    width: 700px;
+
+}
+
+.img_shape2{
+    bottom: -100px;
+    right: -100px;
+
+}
+.img_shape{
+    right: -300px;
+    top: -50px;
+
+}
+
+
+
+#img_title2{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    height: 900px;
+    right: 0px;
+    rotate: 180deg;
+    top: -190px;
+}
+
+
+#img_ocupacao{
+    display: flex;
+    position: absolute;
+    height: 700px;
+    z-index: 3;
+    left: -100px;
+    top: -100px;
+}
+
+
+#img_competidor_es{
+    display: flex;
+    position: absolute;
+    right: -320px;
+    bottom: -960px;
+    height: 1710px;
+    z-index: 3;
+    opacity: 40%;
+}
+
+
+#img_pri{
+    display: flex;
+    position: absolute;
+    height: 900px;
+    opacity: 10%;
+    top: 300px;
+}

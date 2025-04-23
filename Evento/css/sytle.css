@@ -1,0 +1,574 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+@import url(ti.css);
+@import url(estetica.css);
+@import url(cabeleleiro.css);
+@import url(saude.css);
+@import url(gastronomia.css);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+
+
+
+
+.container_img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  #videoteste {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+
+  .fade-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:30%; 
+    background: linear-gradient(to bottom, transparent, #320441);
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 48, 48, 0.2); 
+    z-index: 3;
+  }
+  
+
+  .container_text_video {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-10%);
+    z-index: 4;
+    padding: 0 5rem;
+    width: 100%;
+  }
+  
+  .title_video {
+    color: white;
+    font-size: 3rem;
+    width: 70%;
+  }
+  
+  
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    background-color: rgba(252, 250, 255, 0.85);
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+    z-index: 9999;
+  }
+  
+  .container_logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container_logo img {
+    height: 60px;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #535353;
+    transition: color 0.2s ease;
+  }
+  
+  .nav ul li a:hover {
+    color: rgb(196, 196, 196);
+  }
+
+
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #fff3f9;
+
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.ocupacoes{
+    display: flex;
+    width: 100%;
+    height: 100%;
+  
+    flex-direction: column;
+    background-color: #320441;
+    overflow: hidden;
+
+}
+
+.title_default{
+    display: flex;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 500;
+    color: #636363;
+    padding: 3rem;
+    padding-top: 5rem;
+    text-transform: uppercase;
+    z-index: 5;
+}
+
+.title_default2{
+    display: flex;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 3rem;
+    text-transform: uppercase;
+    padding-top: 5rem;
+    z-index: 5;
+}
+
+.shape{
+    display: flex;
+    height: 1px;
+    width: 90%;
+    background-color: #d7d7d7;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    justify-self: center;
+    align-self: center;
+    z-index: 5;
+}
+
+.conatiner_wrap_ocupacoes{
+    display: flex;
+    width: 100%;
+    margin-top: 3rem;
+    border-radius: 5px;
+
+}
+
+.conatiner_wrap_ocupacoes a{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    transition: all 0.2s ease;
+    margin-bottom: 5rem;
+}
+
+.conatiner_wrap_ocupacoes a:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.conatiner_wrap_ocupacoes a img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* PARTE 2 */
+
+
+.conatiner_card_default{
+    display: flex;
+    margin-top: 2rem;
+
+    flex-direction: column;
+    margin-bottom: 8rem;
+
+
+}
+
+.swiper{
+    display: flex;
+    width: 100%;
+
+
+}
+
+.swiper-wrapper{
+    display: flex;
+    padding: 2rem;
+    width: 100%;
+}
+
+.swiper-slide{
+    display: flex;
+
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.swiper-slide img{
+    width: 400px;
+    display: flex;
+    height: 500px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out
+    ;
+}
+
+.swiper-slide:hover{
+    transform: translateY(-15px);
+
+}
+
+
+
+.swiper-slide .title1{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    font-size:30px;
+    color: #636363;
+    font-weight: 500;
+}
+.swiper-slide .title2{
+    display: flex;
+    width: 400px;
+    font-size:25px;
+    flex-direction: column;
+    color: #ACACAC;
+    font-weight: 400;
+}
+.swiper-pagination{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+/* PARTE SOBRE */
+
+
+.sobre{
+    display: flex;
+    width: 100%;
+    position: relative;
+
+
+}
+
+.container_sobre_left{
+    display: flex;
+    width: 50%;
+    background-color: #FFD821;
+}
+
+.shape_2{
+    display: flex;
+    width: 700px;
+    height: 100px;
+    background-color:#FFD821;
+    position: absolute;
+    top: -60px;
+    border-radius: 00px 50px 0px 0px;
+}
+.text_default{
+    display: flex;
+    padding: 3rem;
+    font-size: 25px;
+    color: #636363;
+    
+}
+.container_sobre_right{
+    display: flex;
+    width: 50%;
+    background-color: #FFD821;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+
+.container_sobre_right img{
+    display: flex;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+/* 
+PARTE LEGADO */
+
+.legado{
+    display: flex;
+    background: linear-gradient(180deg,rgb(255, 76, 76) 0%, #ff5d27 51%, #ff3801 100%);
+    flex-direction: column;
+    position: relative;
+    z-index: 5;
+
+}
+
+.container_bod_legado{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    width: 100%;
+}
+
+.conatiner_text_legado{
+    display: flex;
+    background-color: #FBBABA;
+    padding: 2em;
+    font-size: 20px;
+    border-radius: 4px;
+    color:#303030 ;
+    z-index: 5;
+    text-align: justify;
+}
+
+.conatiner_item_legado{
+    display: flex;
+    padding: 3rem;
+  
+    margin-top: 2rem;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 7rem;
+}
+
+.item_legado{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.item_legado i{
+    display: flex;
+    font-size: 80px;
+    color: rgb(206, 52, 9);
+}
+.shape2{
+    display: flex;
+    width: 500px;
+    height: 2px;
+    background-color: #e85100;
+}
+
+.Title_legado{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.shape_legado{
+    display: flex;
+    position: absolute;
+    width: 900px;
+    height: 90px;
+    background-color: #ff3801;
+    bottom: -70px;
+    right: 0;
+    border-radius: 10px 10px 0px 90px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+PARTE AOVIVO */
+
+
+.aovivo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.aovivo video{
+    display: flex;
+    width: 90%;
+    height: 800px;
+    object-fit: cover;
+}
+
+
+
+
+
+/* 
+FOOTER */
+
+
+footer{
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    background-color: #F57474;
+}
+
+.conatiner_redes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.conatiner_redes .item-rede{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+
+.conatiner_redes .item-rede i{
+    font-size: 25px;
+    color: #ffebe6;
+}
+
+
+.conatiner_redes .item-rede:hover{
+    background-color: #eeeeee;
+}
+.conatiner_redes .item-rede:hover i{
+    color: #828282;
+}
+
+
+.voltar{
+    width: 100%;
+    margin-bottom: 3rem;
+
+
+    
+
+}
+
+.voltar a{
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+
+
+
+
+.competidores{
+    position: relative;
+}
+
+#trasi-1{
+    display: flex;
+    position: absolute;
+    height: 400px;
+    right: 0;
+    bottom: -200px;
+    z-index: 2;
+    opacity: 80%;
+
+
+}
+#trasi-2{
+    display: flex;
+    position: absolute;
+    height: 700px;
+    right: -200px;
+    top: -200px;
+
+    z-index: 2;
+
+
+}
+
+#trasi-3{
+    display: flex;
+    position: absolute;
+    height: 600px;
+    left: -300px;
+    top: -200px;
+    rotate:100deg;
+
+    z-index: 2;
+
+
+
+}
+
+#logo_comp{
+    display: flex;
+    position: absolute;
+    z-index: 999;
+    height: 300px;
+    right: 100px;
+    bottom: 0;
+}

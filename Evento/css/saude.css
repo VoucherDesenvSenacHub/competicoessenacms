@@ -1,0 +1,155 @@
+.sa_cor{
+    background: linear-gradient(180deg, rgb(250, 250, 250) 0%, rgb(255, 255, 255) 66%, rgb(232, 232, 232) 100%);
+    z-index: 10;
+
+}
+
+.title_unil{
+    display: flex;
+
+    width: 100%;
+    margin-top: 10rem;
+    flex-direction: column;
+    padding: 3rem;
+    position: relative;
+
+}
+
+.title_unil1_sa{
+    font-size: 20px;
+    color: rgb(184, 184, 184);
+    text-transform: uppercase;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0.5rem;
+
+    display: flex;
+    
+}
+.title_unil2_sa{
+    font-size: 50px;
+    color: rgb(99, 194, 75);
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+
+
+.conatiner_unilt_item{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.conatiner_text_item_sa{
+    display: flex;
+    padding: 3em;
+    color: #696969;
+    font-size: 20px;
+    z-index: 5;
+    font-weight: 500;
+}
+
+.conatiner_body_unil{
+    display: flex;
+
+    width: 100%;
+}
+
+.conatiner_unilt_item_left_sa{
+    display: flex;
+    width: 50%;
+    padding: 3rem;
+    font-size: 25px;
+    color: #696969;
+    z-index: 8;
+}
+.conatiner_unilt_item_right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conatiner_unilt_item_right img{
+    display: flex;
+    width: 500px;
+    height: 600px;
+    border-radius: 5px 100px 5px 5px;
+    object-fit: cover;
+    z-index: 8;
+}
+
+
+.user_item{
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+
+}
+
+
+.container_item_img{
+    display: flex;
+    position: relative;
+  
+}
+
+
+
+.img_shape, .img_shape2{
+    position: absolute;
+    z-index: 5;
+    border-radius: 15px;
+    height: 250px;
+    width: 700px;
+
+}
+
+.img_shape2{
+    bottom: -100px;
+    right: -100px;
+
+}
+.img_shape{
+    right: -300px;
+    top: -50px;
+
+}
+
+
+
+#img_title_sa{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    height: 600px;
+    right: 0px;
+    top: -140px;
+}
+
+
+#img_ocupacao{
+    display: flex;
+    position: absolute;
+    height: 700px;
+    z-index: 3;
+    left: -100px;
+    top: -100px;
+}
+
+
+#img_competidor_sa{
+    display: flex;
+    position: absolute;
+    right: -850px;
+    bottom: -650px;
+    height: 1710px;
+ z-index: 3;
+
+}
