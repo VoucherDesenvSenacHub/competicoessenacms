@@ -114,8 +114,6 @@
     width: 500px;
     height: 600px;
     border-radius: 5px ;
-    background-color: rgba(255, 124, 198, 0.561);
-
     object-fit: contain;
     z-index: 8;
 
