@@ -460,22 +460,34 @@ PARTE LEGADO */
 PARTE AOVIVO */
 
 
-.aovivo{
+.aovivo2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 4rem;
-}
+    margin-bottom: 2rem;
 
-.aovivo .video_teste{
-    display: flex;
+  }
+  
+  .video_container {
+    position: relative;
     width: 90%;
-    height: 800px;
-    object-fit: cover;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    height: 0;
+    overflow: hidden;
     border-radius: 5px;
-}
-
+  }
+  
+  .video_container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+  }
+  
 
 
 
