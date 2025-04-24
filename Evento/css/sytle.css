@@ -669,6 +669,40 @@ footer{
 }
 
 
+
+
+
+
+
+
+.voltarIndex{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgba(44, 44, 44, 0.579);
+    font-size: 30px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    bottom: 20px;
+   left: 20px;
+    z-index: 9999;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+
+}
+
+.voltarIndex:hover{
+
+    background-color: white;
+
+}
+
+
 /* 
 ANIMAÇÔES */
 
