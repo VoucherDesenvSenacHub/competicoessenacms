@@ -64,7 +64,7 @@
 
   .container_text_video {
     position: absolute;
-    top: 60%;
+    top: 80%;
     transform: translateY(-10%);
     z-index: 4;
     padding: 0 5rem;
@@ -585,8 +585,8 @@ footer{
     position: absolute;
     z-index: 999;
     height: 300px;
-    right: 100px;
-    bottom: 0;
+    right: 20px;
+    top: 100px;
 }
 
 
@@ -630,8 +630,8 @@ footer{
     justify-content: center;
     align-items: center;
     color: #636363;
-    bottom: 100px;
-    right: 100px;
+    bottom: 20px;
+    right: 20px;
     z-index: 9999;
     cursor: pointer;
     transition: all 0.2s ease;
