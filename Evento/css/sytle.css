@@ -74,7 +74,9 @@
   .title_video {
     color: white;
     font-size: 3rem;
-    width: 70%;
+    width: 90%;
+    font-weight: 500;
+    text-transform: uppercase;
   }
   
   
@@ -156,6 +158,7 @@ main{
     flex-direction: column;
     gap:2rem;
 
+  
 }
 
 .title_default2{
@@ -169,7 +172,8 @@ main{
     padding-top: 5rem;
     z-index: 5;
     flex-direction: column;
-
+    
+ 
 
 }
 
@@ -664,27 +668,6 @@ ANIMAÇÔES */
 
 
 
-@keyframes text_work{
-    0%{
-        transform: translateX(100px);
-        opacity: 0;
-    }
-    40%{
-        transform: translateX(0px);
-        opacity: 1;
-    }
-    80%{
-        transform: translateX(0px);
-        opacity: 1;
-
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
-
-
 
 /* NAV MOBILE*/
 
@@ -1044,6 +1027,21 @@ ANIMAÇÔES */
 
 @media (max-width:459px) {
 
+    .container_text_video {
+        position: absolute;
+        top: 70%;
+        transform: translateY(-10%);
+        z-index: 4;
+        padding: 0 2rem;
+        width: 100%;
+      }
+
+    .title_video{
+        font-size: 1.8rem;
+        width: 100%;
+    
+    }
+
     .title_default{
         font-size: 30px;
     }
@@ -1106,9 +1104,6 @@ ANIMAÇÔES */
 
 @media (max-width:370px) {
 
-    .title_video{
-        font-size: 2.5rem;
-        width: 100%;
-    }
+ 
     
 }
