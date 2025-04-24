@@ -42,7 +42,8 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    background-color: rgb(208, 245, 193);
+    background-color: rgba(174, 239, 175, 0.081);
+  
 }
 
 
@@ -158,6 +159,7 @@
     bottom: -650px;
     height: 1710px;
  z-index: 3;
+
 
 }
 

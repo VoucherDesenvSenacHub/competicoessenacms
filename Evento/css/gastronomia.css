@@ -36,7 +36,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    background-color: rgb(77, 34, 2);
+    background-color: rgba(82, 40, 7, 0.238);
 }
 
 .conatiner_text_item_ga{
