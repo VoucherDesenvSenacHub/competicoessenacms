@@ -152,6 +152,7 @@
     position: absolute;
     right: -320px;
     bottom: -1105px;
-    height: 1910px;
+    height: 1610px;
     z-index: 3;
+    opacity: 60%;
 }
