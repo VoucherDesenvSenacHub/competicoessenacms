@@ -618,6 +618,32 @@ footer{
     color: #636363;
 }
 
+
+.voltar_topo{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(255, 253, 253, 0.579);
+    font-size: 30px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    color: #636363;
+    bottom: 100px;
+    right: 100px;
+    z-index: 9999;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.voltar_topo:hover{
+    background-color: white;
+}
+
+
+
+
 /* 
 ANIMAÇÔES */
 
