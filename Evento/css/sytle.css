@@ -141,6 +141,8 @@ main{
 
 }
 
+
+
 .title_default{
     display: flex;
     width: 100%;
@@ -163,7 +165,10 @@ main{
     text-transform: uppercase;
     padding-top: 5rem;
     z-index: 5;
+
 }
+
+
 
 .shape{
     display: flex;
@@ -576,6 +581,13 @@ footer{
 
 
 
+#WrapText {
+    font-weight: 500;
+}
+
+
+/* 
+ANIMAÇÔES */
 
 
 
@@ -597,6 +609,14 @@ footer{
         width: 400px;
         height: 400px;
     }
+
+}
+
+@media (max-width:1270px){
+    .conatiner_item_legado {
+        justify-content: center;
+    }
+
 
 }
 @media (max-width:1138px) {
@@ -647,6 +667,7 @@ footer{
         top: 130px;
     }
 
+   
 
 
 }

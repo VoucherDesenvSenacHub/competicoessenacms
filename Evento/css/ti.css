@@ -26,6 +26,7 @@
     color: rgb(204, 127, 255);
     font-weight: 700;
     text-transform: uppercase;
+    z-index: 999;
 
 }
 
@@ -42,7 +43,7 @@
     display: flex;
     padding: 3em;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     z-index: 5;
     font-weight: 500;
     width: 80%;
@@ -142,6 +143,7 @@
     z-index: 3;
     left: -100px;
     top: -100px;
+    opacity: 50%;
 }
 
 

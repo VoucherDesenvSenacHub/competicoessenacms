@@ -26,6 +26,7 @@
     color: rgb(179, 70, 16);
     font-weight: 700;
     text-transform: uppercase;
+    z-index: 999;
 
 }
 
@@ -42,7 +43,7 @@
     display: flex;
     padding: 3em;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     z-index: 5;
     width: 80%;
     background-color: rgba(255, 167, 95, 0.822);
@@ -130,7 +131,6 @@
     z-index: 3;
     height: 600px;
     right: 0px;
-
     top: -140px;
     rotate: 45deg;
 }
@@ -153,4 +153,16 @@
     bottom: -960px;
     height: 1710px;
  z-index: 3;
+}
+
+@media (max-width:939px) {
+
+    #img_title_ga {
+        height: 400px;
+        top: -250px;
+    }
+
+
+
+    
 }
