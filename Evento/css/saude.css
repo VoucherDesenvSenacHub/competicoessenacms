@@ -157,7 +157,8 @@
     right: -850px;
     bottom: -650px;
     height: 1710px;
- z-index: 3;
+    z-index: 3;
+    opacity: 40%;
 
 
 }

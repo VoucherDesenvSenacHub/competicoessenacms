@@ -149,9 +149,10 @@
     display: flex;
     position: absolute;
     right: -320px;
-    bottom: -960px;
-    height: 1710px;
+    bottom: -260px;
+    height: 1310px;
  z-index: 3;
+ opacity: 60%;
 }
 
 @media (max-width:939px) {
