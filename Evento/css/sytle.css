@@ -464,7 +464,7 @@ PARTE AOVIVO */
     margin-bottom: 4rem;
 }
 
-.aovivo video{
+.aovivo .video_teste{
     display: flex;
     width: 90%;
     height: 800px;
@@ -920,7 +920,7 @@ ANIMAÇÔES */
         gap: 1rem;
     }
 
-    .aovivo video{
+    .aovivo .video_teste{
         height: 500px;
     }
 
@@ -996,6 +996,13 @@ ANIMAÇÔES */
     
 }
 @media (max-width:581px) {
+
+    .conatiner_text_item_ca, .conatiner_text_item_ti, .conatiner_text_item_ga,.conatiner_text_item_sa {
+        padding: 2rem;
+        font-size: 20px;
+        border-radius: 5px 90px 5px 90px;
+    }
+    
 
     .title_default,.title_default2{
         font-size: 30px;
@@ -1085,7 +1092,7 @@ ANIMAÇÔES */
         font-size: 60px;
     }
 
-    .aovivo video{
+    .aovivo .video_teste{
         height: 300px;
     }
 
